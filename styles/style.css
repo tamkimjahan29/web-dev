@@ -23,6 +23,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 20px 200px;
+    margin-top: 50px;
 }
 .nav-tittle{
 
@@ -39,13 +40,22 @@ nav ul li{
     background-color: rgba(13, 19, 33, 0.02);
 }
 
+.web-section div img{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
 /*web-section style*/
 .web-section{
     border-radius: 16px;
     padding: 80px  47px;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 50px;
     display: flex;
+    background-color: rgba(13, 19, 33, 0.02);
 }
 
 
@@ -75,12 +85,33 @@ nav ul li{
 .banner-container{
     width: 1440px;
     height: 652px;
-    margin-top: 131px;
+    margin-top: 50px;
     background-image: url('/assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0px;
     }
+  
+.banner-container img{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    
+}
+.banner-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0;
+}
+.banner-container p{
+   text-align: center;
+}
+.banner-container button{
+    display: flex;
+}
 /*banner styles*/
 
 .banner-section{
@@ -124,7 +155,17 @@ gap: 25px;
 .target-description{
     padding: 30px;
 }
+
 .btn{
     background-color: rgb(255, 255, 255);
     color: black;
+}
+.video-container iframe{
+    width: 1076px;
+    height: 550px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
